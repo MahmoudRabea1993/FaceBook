@@ -1,0 +1,14 @@
+body{background-color:black;}
+.row{display: flex;}
+.containeer{margin-top: 40px;}
+.Pinfo{text-align: left;}
+.prof img{width: 20px;margin-right: 7px}
+.prof a{text-decoration: none;font-weight: bold;color: gray;font-size: 13px;}
+.prof a:hover{background-color: rgba(255,255,255,0.3);}
+.card{margin-bottom: 10px;box-shadow: 1px 1px 5px #555;}
+.modal-header{background-color: #eee;}
+nav{z-index: 1;display: flex;}
+img{border-radius: 10px;}
+@media screen and (min-width: 300px) and (max-width: 700px){#left,#chat {display:none}}
+#chat img{height: 40px;width: 40px;border-radius: 50%;margin-right: 10px;}
+#chat{font-weight: bold;font-size: 0.7em;color:white;}
